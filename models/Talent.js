@@ -1,11 +1,23 @@
 /*
 Guideline
+-Id
 -Name
 -Job Title
 -Services
 -Skills
+  --descriptions
 -Certifications
+  --title
+  --img
 -Previous jobs
+  --title
+  --responsibilities
+  --left
+    --when
+    --why
+  --references
+    --name
+    --contact
 -Hourly price
 -reviews, only employers that have done jobs with talent can review and rate upon success or fail
 -ratings
@@ -49,9 +61,14 @@ var TalentSchema = new Schema({
     			type: String,
     		}
     	}],
-    	left: {
-    		type: Date
-    	},
+    	left: [{
+    		when: {
+    			type: Date
+    		},
+    		why: {
+    			type: String
+    		}
+    	}],
     	references: [{
     		name: {
     			type: String

@@ -3,7 +3,7 @@ import React, {Component} from "react";
 // import EmpProfile from "./EmpProfile";
 // import TalentProfile from "./TalentProfile";
 // // import Search from "./Search";
-// import Registration from "./Registration";
+import Registration from "./Registration";
 // import Nav from "./Nav";
 
 class Main extends Component {
@@ -35,7 +35,12 @@ class Main extends Component {
         <div className="container">
             {/*<Nav searchTerm={this.searchTerm}/>*/}
             {/*body*/}
-            <div className="jumbotron">Test</div>
+            <div className="jumbotron">
+                <h1>GigPaid</h1>
+                <p>Show when you're available! Schedule a job! And get paid!</p>
+            </div>
+
+            {/*<Registration/>*/}
         </div>        
         );
     }

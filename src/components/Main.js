@@ -1,11 +1,10 @@
 import React, {Component} from "react";
-import {Link} from "react-router";
 
-import EmpProfile from "./EmpProfile";
-import TalentProfile from "./TalentProfile";
-// import Search from "./Search";
-import Registration from "./Registration";
-import Nav from "./Nav";
+// import EmpProfile from "./EmpProfile";
+// import TalentProfile from "./TalentProfile";
+// // import Search from "./Search";
+// import Registration from "./Registration";
+// import Nav from "./Nav";
 
 class Main extends Component {
     constructor(){
@@ -34,14 +33,15 @@ class Main extends Component {
     render() {
         return (
         <div className="ui container">
-            <Nav searchTerm={this.searchTerm}/>
+            {/*<Nav searchTerm={this.searchTerm}/>*/}
             {/*body*/}
             <div className="grid">
                 <div className="five wide column">
                     {/*blank*/}
+                    <p>test</p>
                 </div>
                 <div className="six wide column">
-                    <Registration/>
+                    {/*<Registration/>*/}
                 </div>
                 <div className="five wide column">
                     {/*blank*/}

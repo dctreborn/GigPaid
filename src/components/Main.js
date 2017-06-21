@@ -45,6 +45,7 @@ class Main extends Component {
                 </div>
                 <div className="five wide column">
                     {/*blank*/}
+                    <p>test 2</p>
                 </div>
             </div>
         </div>        

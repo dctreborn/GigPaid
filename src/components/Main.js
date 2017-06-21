@@ -32,22 +32,10 @@ class Main extends Component {
 
     render() {
         return (
-        <div className="ui container">
+        <div className="container">
             {/*<Nav searchTerm={this.searchTerm}/>*/}
             {/*body*/}
-            <div className="grid">
-                <div className="five wide column">
-                    {/*blank*/}
-                    <p>test</p>
-                </div>
-                <div className="six wide column">
-                    {/*<Registration/>*/}
-                </div>
-                <div className="five wide column">
-                    {/*blank*/}
-                    <p>test 2</p>
-                </div>
-            </div>
+            <div className="jumbotron">Test</div>
         </div>        
         );
     }
